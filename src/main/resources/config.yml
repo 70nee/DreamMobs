@@ -1,0 +1,18 @@
+# Approximately half of NATURAL zombie spawns become Dream; this gives Dream
+# a frequency similar to remaining normal zombies without increasing the mob cap.
+zombie-replacement-chance: 0.50
+health: 150.0
+attack-damage: 30.0
+armor: 12.0
+movement-speed: 0.30
+follow-range: 40.0
+# After importing skin/dream.png with LibsDisguises /grabskin, use its saved name.
+skin-name: DreamSkin
+# 0 disables the custom chance (but /dreammobs spawn still works).
+# Natural spawning is limited to naturally spawned ordinary zombies.
+
+# Signature attack: charge spiral, leap and sweeping impact (server-side particles)
+nightmare-rush:
+  enabled: true
+  cooldown-seconds: 12
+  bonus-damage: 8.0
